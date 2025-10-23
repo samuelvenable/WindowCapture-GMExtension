@@ -18,7 +18,7 @@
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libwincapture.zip","constants":[],"copyToTargets":-1,"filename":"libwincapture.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libwincapture.zip","constants":[],"copyToTargets":0,"filename":"libwincapture.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libwincapture.dll","constants":[],"copyToTargets":194,"filename":"libwincapture.dll","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_add","argCount":0,"args":[
             1,
@@ -39,7 +39,6 @@
             2,
             1,
           ],"documentation":"","externalName":"capture_grab_frame_buffer","help":"capture_grab_frame_buffer(ind,buffer)","hidden":false,"kind":1,"returnType":2,},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_desktop","argCount":0,"args":[],"documentation":"","externalName":"capture_get_desktop","help":"capture_get_desktop()","hidden":false,"kind":1,"returnType":1,},
       ],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
