@@ -1,2 +1,2 @@
 # WindowCapture GameMaker Extension
-Capture Screenshots of Any Window ID in GameMaker, (includes TitleBar)
+Capture Screenshots of Window ID's in GameMaker, (includes TitleBar)
