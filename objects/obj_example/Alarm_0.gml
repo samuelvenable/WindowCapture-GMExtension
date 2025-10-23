@@ -1,0 +1,10 @@
+win = GetString("Enter a valid window ID, (or click OK for default):", WindowIdFromNativeWindow(window_handle()));
+capture = capture_add(ptr(int64(win)));
+w = capture_get_width(capture);
+h = capture_get_height(capture);
+if (w <= 0 || h <= 0) game_end();
+chan = buffer_sizeof(buffer_u64);
+buff = buffer_create(chan * w * h, buffer_fixed, chan);
+surf = -1;
+buffer_poke(buff, buffer_get_size(buff) - 1, buffer_u8, 0);
+alarm[1] = 10;

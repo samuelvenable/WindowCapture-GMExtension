@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings": [
+    {"name":"libwincapture","order":1,"path":"folders/Sprites/libwincapture.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"libfiledialogs","order":4,"path":"extensions/libfiledialogs/libfiledialogs.yy",},
+    {"name":"libxprocess","order":3,"path":"extensions/libxprocess/libxprocess.yy",},
+    {"name":"libwincapture","order":1,"path":"extensions/libwincapture/libwincapture.yy",},
+  ],
+}
