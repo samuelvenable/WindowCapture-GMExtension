@@ -1,2 +1,2 @@
-# Window Capture GameMaker Extension
+# WindowCapture GameMaker Extension
 Capture Screenshots of Any Window ID in GameMaker
