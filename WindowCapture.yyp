@@ -191,6 +191,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"157-NotoSansHK-Regular.otf","CopyToMask":-1,"filePath":"datafiles/fonts",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"NotoSans-License.txt","CopyToMask":-1,"filePath":"datafiles/fonts",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Roboto-License.txt","CopyToMask":-1,"filePath":"datafiles/fonts",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"SeeWindowIDs.ps1","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
   "LibraryEmitters": [],
