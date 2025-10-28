@@ -1,4 +1,5 @@
-win = GetString("Enter a valid window ID, (or click OK for default):", WindowIdFromNativeWindow(window_handle()));
+win = get_string("Enter a window ID, (or click 'Cancel' for default):", WindowIdFromNativeWindow(window_handle()));
+if (win == "") win = WindowIdFromNativeWindow(window_handle());
 capture = capture_add(ptr(int64(win)));
 w = capture_get_width(capture);
 h = capture_get_height(capture);
