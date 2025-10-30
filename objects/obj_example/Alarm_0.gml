@@ -1,6 +1,7 @@
 win = get_string("Enter a window ID, (or click 'Cancel' for default):", WindowIdFromNativeWindow(window_handle()));
 if (win == "") win = WindowIdFromNativeWindow(window_handle());
 capture = capture_add(ptr(int64(win)));
+capture_set_showcursor(capture, false);
 w = capture_get_width(capture);
 h = capture_get_height(capture);
 if (w <= 0 || h <= 0) game_end();

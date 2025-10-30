@@ -7,7 +7,4 @@ if (capture_exists(capture)) {
     draw_clear_alpha(c_black, 0);
     surface_reset_target();
   }
-  if (buffer_exists(buff) && surface_exists(surf)) {
-	buffer_set_surface(buff, surf, 0);
-  }
 }
