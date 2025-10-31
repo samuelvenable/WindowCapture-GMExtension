@@ -1,4 +1,4 @@
 # WindowCapture GameMaker Extension
 
-Capture Screenshots of External Windows in GameMaker
+Capture Screenshots of External Windows in GameMaker Projects
 
