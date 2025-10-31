@@ -39,13 +39,6 @@
             2,
             1,
           ],"documentation":"","externalName":"capture_grab_frame_buffer","help":"capture_grab_frame_buffer(ind,buffer)","hidden":false,"kind":1,"returnType":2,},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_showcursor","argCount":0,"args":[
-            2,
-          ],"documentation":"","externalName":"capture_get_showcursor","help":"capture_get_showcursor(ind)","hidden":false,"kind":1,"returnType":2,},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_set_showcursor","argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"","externalName":"capture_set_showcursor","help":"capture_set_showcursor(ind,show)","hidden":false,"kind":1,"returnType":2,},
       ],"init":"","kind":1,"order":[
         {"name":"capture_add","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_exists","path":"extensions/libwincapture/libwincapture.yy",},
