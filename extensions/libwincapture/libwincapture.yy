@@ -39,12 +39,27 @@
             2,
             1,
           ],"documentation":"","externalName":"capture_grab_frame_buffer","help":"capture_grab_frame_buffer(ind,buffer)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_update","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"capture_update","help":"capture_update(ind)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_create_window_list","argCount":0,"args":[],"documentation":"","externalName":"capture_create_window_list","help":"capture_create_window_list()","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_window_id","argCount":0,"args":[
+            2,
+            2,
+          ],"documentation":"","externalName":"capture_get_window_id","help":"capture_get_window_id(list,ind)","hidden":false,"kind":1,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_window_id_length","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"capture_get_window_id_length","help":"capture_get_window_id_length(list)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_destroy_window_list","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"capture_destroy_window_list","help":"capture_destroy_window_list(list)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_window_caption","argCount":0,"args":[
+            1,
+          ],"documentation":"","externalName":"capture_get_window_caption","help":"capture_get_window_caption(window)","hidden":false,"kind":1,"returnType":1,},
       ],"init":"","kind":1,"order":[
         {"name":"capture_add","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_exists","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_delete","path":"extensions/libwincapture/libwincapture.yy",},
-        {"name":"capture_get_showcursor","path":"extensions/libwincapture/libwincapture.yy",},
-        {"name":"capture_set_showcursor","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_get_width","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_get_height","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_grab_frame_buffer","path":"extensions/libwincapture/libwincapture.yy",},
