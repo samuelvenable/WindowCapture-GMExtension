@@ -56,6 +56,13 @@
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_window_caption","argCount":0,"args":[
             1,
           ],"documentation":"","externalName":"capture_get_window_caption","help":"capture_get_window_caption(window)","hidden":false,"kind":1,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_get_fixedsize","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"capture_get_fixedsize","help":"capture_get_fixedsize(ind)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_set_fixedsize","argCount":0,"args":[
+            2,
+            2,
+          ],"documentation":"","externalName":"capture_set_fixedsize","help":"capture_set_fixedsize(ind,fixed)","hidden":false,"kind":1,"returnType":2,},
       ],"init":"","kind":1,"order":[
         {"name":"capture_add","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_exists","path":"extensions/libwincapture/libwincapture.yy",},
