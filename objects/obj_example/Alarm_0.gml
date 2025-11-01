@@ -17,6 +17,6 @@ w = capture_get_width(capture);
 h = capture_get_height(capture);
 if (w <= 0 || h <= 0) game_end();
 chan = buffer_sizeof(buffer_u64);
-buff = buffer_create(chan * w * h, buffer_grow, chan);
+buff = buffer_create(chan * w * h, buffer_fast, chan);
 surf = -1;
 buffer_poke(buff, buffer_get_size(buff) - 1, buffer_u8, 0);
