@@ -66,6 +66,13 @@
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_window_list_exists","argCount":0,"args":[
             2,
           ],"documentation":"","externalName":"capture_window_list_exists","help":"capture_window_list_exists(list)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_monitor_get_count","argCount":0,"args":[],"documentation":"","externalName":"capture_monitor_get_count","help":"capture_monitor_get_count()","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_monitor_get_current","argCount":0,"args":[],"documentation":"","externalName":"capture_monitor_get_current","help":"capture_monitor_get_current()","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_monitor_set_current","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"capture_monitor_set_current","help":"capture_monitor_set_current(current)","hidden":false,"kind":1,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_monitor_get_name","argCount":0,"args":[],"documentation":"","externalName":"capture_monitor_get_name","help":"capture_monitor_get_name()","hidden":false,"kind":1,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"capture_monitor_init_info","argCount":0,"args":[],"documentation":"","externalName":"capture_monitor_init_info","help":"capture_monitor_init_info()","hidden":false,"kind":1,"returnType":2,},
       ],"init":"","kind":1,"order":[
         {"name":"capture_add","path":"extensions/libwincapture/libwincapture.yy",},
         {"name":"capture_exists","path":"extensions/libwincapture/libwincapture.yy",},

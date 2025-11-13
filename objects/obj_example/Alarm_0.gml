@@ -1,4 +1,5 @@
-var def = WindowIdFromNativeWindow(window_handle());
+capture_monitor_init_info();
+var def = string(int64(window_handle()));
 var msg = "Window ID list:\n\n";
 var list = capture_create_window_list();
 for (var i = 0; i < capture_get_window_id_length(list); i++) {
@@ -13,6 +14,14 @@ capture_destroy_window_list(list);
 show_message(msg);
 win = get_string("Enter a window ID, (or click 'Cancel' for default):", def);
 if (win == "") win = def;
+if (win == "0") {
+  var prompt = "";
+  var moncnt = capture_monitor_get_count();
+  if (moncnt == 0) game_end();
+  if (moncnt == 1) prompt = "Enter a monitor ID, (only 0 is valid).";
+  if (moncnt >= 2) prompt = "Enter a monitor ID, (only 0-" + string(moncnt - 1) + " is valid).";
+  capture_monitor_set_current(get_string(prompt, "0"));
+}
 if (capture != -1) capture_delete(capture);
 capture = capture_add(ptr(int64(win)));
 w = capture_get_width(capture);
