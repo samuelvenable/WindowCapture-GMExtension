@@ -27,7 +27,7 @@ if (win == "0") {
   show_message(msg);
   if (moncnt == 1) prompt = "Enter a monitor ID, (only 0 is valid).";
   if (moncnt >= 2) prompt = "Enter a monitor ID, (only 0-" + string(moncnt - 1) + " is valid).";
-  capture_monitor_set_current(get_string(prompt, "0"));
+  capture_monitor_set_current(get_integer(prompt, 0));
 }
 if (capture != -1) capture_delete(capture);
 capture = capture_add(ptr(int64(win)));
