@@ -274,11 +274,13 @@
         {"name":"widget_set_button_name","path":"extensions/libdlgmod/libdlgmod.yy",},
       ],"origname":"extensions\\DialogModule.dll","ProxyFiles":[
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libdlgmod.dylib","TargetMask":1,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libdlgmod_arm.so","TargetMask":7,},
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libdlgmod_arm64.so","TargetMask":7,},
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libdlgmod.so","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libdlgmod.zip","constants":[],"copyToTargets":0,"filename":"libdlgmod.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libdlgmod.gml","constants":[],"copyToTargets":194,"filename":"libdlgmod.gml","final":"","functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"libdlgmod_init","argCount":0,"args":[],"documentation":"","externalName":"libdlgmod_init","help":"libdlgmod_init()","hidden":true,"kind":2,"returnType":2,},
+      ],"init":"libdlgmod_init","kind":2,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
   "hasConvertedCodeInjection": true,
