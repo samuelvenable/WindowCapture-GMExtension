@@ -12,7 +12,11 @@ for (var i = 0; i < capture_get_window_id_length(list); i++) {
 capture_destroy_window_list(list);
 show_message(msg);
 win = get_string("Enter a window ID, (or click 'Cancel' for default):", def);
-if (win == "") win = def;
+first_char = string_copy(win, 0, 1);
+if (win == "" || (first_char != "0" && first_char != "1" && first_char != "2" && first_char != "3" && first_char != "4" && 
+  first_char != "5" && first_char != "6" && first_char != "7" && first_char != "8" && first_char != "9")) { 
+  win = def;
+}
 if (win == "0") {
   var prompt = "";
   capture_monitor_init_info();
